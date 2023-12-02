@@ -1,11 +1,11 @@
 <div class="modal fade" id="modalCreate" tabindex="-1" aria-labelledby="modalCreateLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
         <div class="modal-content" style="background:#374050">
-            <div class="modal-header">
-                <h1 class="modal-title fs-5" id="modalCreateLabel">Добавить продукт</h1>
+            <div class="modal-header" style="border-color: #374050">
+                <h1 class="modal-title fs-5 text-white" id="modalCreateLabel">Добавить продукт</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body text-white">
                 <div>
                     <form action="{{route('product.store')}}" method="post">
                         @csrf
@@ -31,12 +31,12 @@
                             </select>
                         </div>
                         <div class="mb-3">
-                            <label class="form-label">Атрибуты</label>
+                            <label class="form-label fs-4">Атрибуты</label>
                             <div id="Atributes">
                             </div>
-                            <a id="addAtributes" onclick="addAtribute(this.id)">+добавить атрибут</a>
+                            <a id="addAtributes" onclick="addAtribute(this.id)" class="text-blue" style="text-decoration: none;border-bottom: 1px dashed #0d6efd;">+Добавить атрибут</a>
                         </div>
-                        <div class="modal-footer">
+                        <div class="modal-footer" style="border-color: #374050">
                             <button type="submit" class="btn btn-primary">Добавить</button>
                         </div>
                     </form>
