@@ -7,7 +7,8 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-Laravel
-CRUD
-modal
-jsonb
+Laravel<br>
+PostgreSQL<br>
+CRUD<br>
+modal<br>
+jsonb<br>
